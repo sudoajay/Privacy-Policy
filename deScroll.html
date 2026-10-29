@@ -112,142 +112,173 @@
     <div class="container">
         <header>
             <h1>🛡️ deScroll Privacy Policy</h1>
-            <p class="last-updated"><strong>Last Updated:</strong> April 21, 2025</p>
+            <p class="last-updated"><strong>Last Updated:</strong> October 29, 2026</p>
         </header>
 
         <section>
-            <p>At deScroll, your privacy is our top priority. We’re committed to transparency while helping you
-                <strong>reduce screentime</strong>, combat <strong>doomscrolling</strong>, and enhance
-                <strong>focus</strong> with our <strong>productivity launcher</strong>. 🌟 Most features of deScroll
-                operate entirely on your device. However, when you use our <strong>AI Chat</strong> or <strong>Support</strong> features, 
-                we securely transmit your messages and a completely anonymous device identifier to our servers to process your requests. 
-                <strong>We do not collect any personal information like names, emails, or Google accounts.</strong> 
-                This Privacy Policy explains how deScroll handles data both locally and in the cloud to provide its features 
-                while keeping your information private and secure.
+            <p>At deScroll, your privacy is our top priority. deScroll helps you <strong>reduce screentime</strong>,
+                combat <strong>doomscrolling</strong>, and improve <strong>focus</strong> with a
+                <strong>productivity launcher</strong>. 🌟 Core features such as blocking, usage tracking, scroll
+                counting, and launcher settings run <strong>on your device</strong>. Some optional features
+                (AI Helper, Support, subscriptions, weather, crash reporting) need to send limited data off your
+                device. <strong>We do not collect names, email addresses, or Google accounts.</strong>
+                This policy explains exactly what is processed, where, and for how long.
             </p>
         </section>
 
         <section>
             <h2>1. Information Processed on Your Device 📊</h2>
-            <p>deScroll uses certain permissions to function, but we do <strong>not collect or access any data</strong>.
-                Instead, the following information is processed and stored locally on your device:</p>
+            <p>The following data is processed and stored <strong>locally on your device</strong>. It is not sent
+                to us, except where you use a feature described in section 2:</p>
             <ul>
-                <li><strong>📍 Approximate Location (Coarse Location)</strong><br>With your permission via the
-                    "Approximate Location" prompt, deScroll uses approximate location (not precise) for location-based
-                    features, like personalized app usage insights. This data is stored locally on your device and never
-                    accessed by us.</li>
-                <li><strong>📱 App Usage Data (Package Usage Stats, Query All Packages)</strong><br>With your consent
-                    through the "Usage Access Required" permission, deScroll processes app usage data (e.g., time spent
-                    on apps, short video scrolls) to provide insights into your habits and help you <strong>reduce
-                        screentime</strong>. We also query installed apps to enable app blocking and usage tracking.
-                    This data is stored in a local database on your device and is not transmitted to us.</li>
-                <li><strong>🔔 Notification Data (Post Notifications, Notification Control)</strong><br>deScroll uses
-                    notification permissions to send alerts and updates (with your consent via "Enable Notifications")
-                    and to filter or silence app alerts through the "Notification Control" feature. Notification data is
-                    processed and stored locally on your device, with no access by deScroll.</li>
-                <li><strong>📲 Device Information (System Alert Window, Display Over Apps)</strong><br>With your consent
-                    via the "Display Over Apps" permission, deScroll uses device information to enable floating widgets
-                    (e.g., timers, usage stats) over other apps. This data is processed locally and stored on your
-                    device, not accessed by us.</li>
-                <li><strong>🚫 App Blocking & Usage Limits (Accessibility Services)</strong><br>Through the "App Blocker
-                    Access" and "Usage Blocker Access" permissions, deScroll uses Accessibility Services to block apps
-                    and enforce screen time limits. No personal data is collected—this feature only restricts apps based
-                    on your preferences, and all data stays on your device.</li>
-                <li><strong>🔄 Boot Information (Receive Boot Completed)</strong><br>This permission allows deScroll to
-                    restart services (e.g., usage tracking, app blocking) after a device reboot, ensuring uninterrupted
-                    functionality. No data is collected or accessed by us.</li>
-                <li><strong>🌐 Internet Access</strong><br>deScroll uses internet access to fetch app updates, but no
-                    personal data is transmitted or collected. All functionality operates locally on your device.</li>
+                <li><strong>📱 App Usage Data (Usage Access, Query All Packages)</strong><br>With your consent,
+                    deScroll reads app usage statistics (e.g., time spent on apps, short-video scrolls) and your list
+                    of installed apps to power insights, blocking, and launcher features. This data is stored in a
+                    local database on your device.</li>
+                <li><strong>🚫 App Blocking & Usage Limits (Accessibility Service)</strong><br>deScroll uses Android
+                    Accessibility Service to detect the app in the foreground, supported short-video screens, and
+                    scroll events, so it can enforce the rules you set in App Shield, Usage Guardian, and Focus
+                    Enhancer and count scrolls. This activity stays on your device.</li>
+                <li><strong>🔔 Notifications (Post Notifications, Notification Control)</strong><br>deScroll sends
+                    you alerts and, if you enable Notification Control, filters or silences selected app
+                    notifications and keeps a notification history on your device.</li>
+                <li><strong>📲 Overlays & Background Services (Display Over Apps, Foreground Service, Boot
+                        Completed)</strong><br>Used for floating timers, countdowns, and focus controls, and to
+                    restart protection after a reboot. They are not used to collect unrelated activity.</li>
+                <li><strong>💬 AI Helper Chat History</strong><br>Your AI Helper conversations are saved in the app
+                    on your device so you can scroll back through them.</li>
             </ul>
-            <p><strong>Important</strong>: For the above local features, deScroll does <strong>not</strong> collect precise location, personal
-                identifiers (e.g., name, email), or any sensitive information. All usage tracking data remains on your device.</p>
         </section>
 
         <section>
             <h2>2. Information Processed on Our Servers ☁️</h2>
-            <p>When you explicitly use our cloud-based features (AI Chat and Support), we collect the following anonymous data:</p>
+            <p>Our backend runs on <strong>Google Cloud</strong>. It only receives data when you use one of these
+                features:</p>
             <ul>
-                <li><strong>💬 Messages and Chat Content</strong><br>When you send a message to the AI Chat or submit a Support ticket, the text you type is securely transmitted to our backend servers and to our third-party AI providers (e.g., Google Gemini, Anthropic Claude) to generate a response.</li>
-                <li><strong>🆔 Anonymous Device Identifiers</strong><br>We generate a random, anonymous identifier (Firebase UID) for your device. We use this ID to connect you to the backend, keep track of your active chats, and enforce free daily message limits. This ID is never linked to your real identity or email.</li>
-                <li><strong>📈 Usage Analytics</strong><br>We log anonymous analytics about your chat usage (e.g., how many messages you sent, AI token costs, and response times) to monitor system health and improve performance. Chat logs may be retained securely on our servers for up to 30 days for debugging and moderation purposes before being automatically deleted.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>3. How Data Is Used 🔧</h2>
-            <p>The data processed by deScroll is used solely to provide its features:</p>
-            <ul>
-                <li><strong>To Reduce Screentime</strong>: Local usage data powers features like "Advanced Insights"
-                    (e.g., tracking app activity) and "Usage Guardian" (e.g., setting app time limits), helping you cut
-                    screentime by up to 82%, as reported by early users.</li>
-                <li><strong>To Block Apps</strong>: Accessibility Services ("App Shield," "App Blocker Access") restrict
-                    app access to help you stay focused, with all data processed locally.</li>
-                <li><strong>To Enhance Focus</strong>: Features like "Focus Enhancer" and "Notifications Control" use
-                    local notification and app data to create a <strong>distraction-free</strong> environment.</li>
-                <li><strong>To Personalize Features</strong>: Approximate location and usage data enable tailored
-                    features, such as location-based insights, all stored on your device.</li>
-                <li><strong>To Power AI Chat & Support</strong>: Anonymous device IDs and message content are transmitted to our servers to provide intelligent AI responses, enforce usage limits, and allow our support team to assist you.</li>
-            </ul>
-            <p><strong>We do not collect or store personal identities</strong>, and your data is never sold to third parties.</p>
-        </section>
-
-        <section>
-            <h2>4. Data Security 🔒</h2>
-            <p>Your data’s security is our priority:</p>
-            <ul>
-                <li><strong>Encryption in Transit</strong>: All messages and data sent to our servers for the AI Chat and Support features are securely encrypted in transit using industry-standard HTTPS.</li>
-                <li><strong>Local Storage for Core Features</strong>: Your app usage stats and blocking preferences remain entirely on your device and are inaccessible to us.</li>
-                <li><strong>No Personal Identifiers</strong>: Our backend systems are designed to operate entirely anonymously. We do not ask for or store your email address, name, or Google account.</li>
-                <li><strong>No Third-Party Selling</strong>: We do not sell your data to any third parties for advertising or marketing.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>5. Permissions & Your Control 🎮</h2>
-            <p>deScroll requires permissions to function, all of which are optional and clearly explained:</p>
-            <ul>
-                <li><strong>Set as Default Launcher</strong>: Enhances your home screen with a <strong>minimalistic
-                        interface</strong> for a <strong>distraction-free</strong> experience.</li>
-                <li><strong>Expand Status Bar & System Alert Window</strong>: Enables floating widgets for quick access
-                    to tools like timers and usage stats.</li>
-                <li><strong>Foreground Service (Special Use)</strong>: Runs essential services (e.g., app blocking,
-                    usage tracking) in the background for uninterrupted functionality.</li>
-                <li><strong>Request Delete Packages</strong>: Allows deScroll to assist in uninstalling apps if you
-                    choose to do so.</li>
-            </ul>
-            <p>You can manage these permissions in your device settings. Disabling permissions may limit some features,
-                but we respect your choices. Since all data is local, you have full control over it.</p>
-        </section>
-
-        <section>
-            <h2>6. Your Rights & Choices ⚖️</h2>
-            <p>You have control over your data:</p>
-            <ul>
-                <li><strong>Access & Deletion</strong>: View your usage data within deScroll (e.g., via "Advanced
-                    Insights") and delete it by clearing app data or uninstalling deScroll.</li>
-                <li><strong>Opt-Out</strong>: Disable permissions or stop using Accessibility Services to limit data
-                    processing on your device.</li>
-                <li><strong>Transparency</strong>: We’ll notify you of policy changes via the app or Play Store listing.
+                <li><strong>🆔 Anonymous Device Identifier</strong><br>A random anonymous ID (Firebase UID) is created
+                    for your installation. We store it with your app ID and when it was created and last used, so we
+                    can connect you to the backend, enforce daily message limits, and link premium access. It is
+                    never linked to your name or email.</li>
+                <li><strong>🤖 AI Helper</strong><br>When you send a message, deScroll sends your message and your
+                    recent conversation to our backend, which uses up to the last 10 messages. If the answer needs your
+                    deScroll data, the app may also send a <strong>limited summary</strong> relevant to your
+                    question, such as app names, usage time, scroll counts, and your App Shield, Notification
+                    Control, or Focus Enhancer settings. Messages are automatically checked for safety, then sent to
+                    <strong>Google Gemini through Google Cloud Vertex AI</strong> to generate the reply.
+                    <strong>We do not store your AI Helper messages or replies on our servers</strong> after the
+                    reply is returned. Google processes this data under its Google Cloud terms.</li>
+                <li><strong>🔢 Daily Message Counter</strong><br>We keep a count of how many AI Helper messages you
+                    sent today to apply your plan's daily limit. It resets automatically every day.</li>
+                <li><strong>🎫 Support Tickets</strong><br>When you contact support in the app, we store your ticket
+                    subject, messages, our replies, ticket status, priority, and app version so we can help you.</li>
+                <li><strong>💳 Subscriptions</strong><br>When you buy or restore premium, we verify your purchase with
+                    Google Play and store the details needed to manage access: purchase token, product and plan ID,
+                    order ID, subscription status, and expiry date. Payment card details are handled by Google Play
+                    and never reach us.</li>
+                <li><strong>🧾 Technical Logs</strong><br>Our servers record basic request logs (time, endpoint,
+                    status, response time, and your anonymous ID) and subscription events to keep the service
+                    running and investigate problems. <strong>These logs do not contain your AI Helper
+                        messages.</strong></li>
+                <li><strong>🌤️ Weather (optional)</strong><br>If you enable weather and grant approximate location,
+                    your coarse latitude and longitude are sent to Open-Meteo to fetch the temperature. Location is
+                    stored only on your device and is never used for advertising.</li>
+                <li><strong>📈 Crash Reports & Analytics</strong><br>Firebase Crashlytics and Analytics may collect
+                    crash logs, diagnostics, and high-level feature usage to help us fix bugs and improve reliability.
                 </li>
             </ul>
         </section>
 
         <section>
-            <h2>7. Children’s Privacy 🚸</h2>
-            <p>deScroll is not intended for users under 13. We do not knowingly collect personal information from children.</p>
+            <h2>3. How Long We Keep Data ⏳</h2>
+            <ul>
+                <li><strong>AI Helper messages</strong>: not stored on our servers; processed only to generate the
+                    reply.</li>
+                <li><strong>Daily message counter</strong>: deleted automatically at the end of each day.</li>
+                <li><strong>Technical logs</strong>: kept by Google Cloud Logging for up to 30 days, then deleted
+                    automatically.</li>
+                <li><strong>Subscription records</strong>: kept while your subscription is relevant and as needed for
+                    billing, fraud prevention, and legal requirements.</li>
+                <li><strong>Support tickets and your anonymous ID record</strong>: kept while needed to provide the
+                    service, or until you ask us to delete them.</li>
+                <li><strong>On-device data</strong>: stays until you clear app data or uninstall deScroll.</li>
+            </ul>
         </section>
 
         <section>
-            <h2>8. Changes to This Privacy Policy 📝</h2>
-            <p>We may update this policy to reflect new features or legal requirements. Changes will be posted here, and
-                significant updates will be communicated via the app. Please review periodically.</p>
+            <h2>4. How Data Is Used 🔧</h2>
+            <ul>
+                <li><strong>To Reduce Screentime</strong>: Usage data powers "Advanced Insights" and "Usage
+                    Guardian" on your device.</li>
+                <li><strong>To Block Apps and Protect Focus</strong>: App Shield, Focus Enhancer, and Notification
+                    Control apply your rules on your device.</li>
+                <li><strong>To Answer AI Helper Questions</strong>: Your message and any summary you allow are used
+                    only to generate the reply.</li>
+                <li><strong>To Provide Support and Premium Access</strong>: Tickets, purchase verification, and daily
+                    limits.</li>
+                <li><strong>To Keep deScroll Reliable and Secure</strong>: Logs, crash reports, and abuse prevention.
+                </li>
+            </ul>
+            <p><strong>We never sell your data</strong> and never use it for advertising.</p>
         </section>
 
         <section>
-            <h2>9. Contact Us 📧</h2>
+            <h2>5. Sharing and Service Providers 🤝</h2>
+            <ul>
+                <li><strong>Google Cloud</strong> (hosting, database, logs) and <strong>Google Gemini via Vertex
+                        AI</strong> (AI Helper replies).</li>
+                <li><strong>Google Firebase</strong> (anonymous sign-in, crash reporting, analytics).</li>
+                <li><strong>Google Play Billing</strong> (subscriptions).</li>
+                <li><strong>Upstash</strong> (stores the daily message counter).</li>
+                <li><strong>Open-Meteo</strong> (weather, only if enabled).</li>
+                <li>Authorities, only where required by law.</li>
+            </ul>
+            <p>These providers may process data in countries other than your own, including outside India, under
+                their own safeguards.</p>
+        </section>
+
+        <section>
+            <h2>6. Data Security 🔒</h2>
+            <ul>
+                <li><strong>Encryption in Transit</strong>: All data sent to our servers uses HTTPS.</li>
+                <li><strong>Anonymous by Design</strong>: We do not ask for or store your email, name, or Google
+                    account.</li>
+                <li><strong>Minimal Storage</strong>: AI Helper conversations are not kept on our servers.</li>
+            </ul>
+            <p>No method of storage or transmission is completely secure, but we take reasonable steps to protect
+                your data.</p>
+        </section>
+
+        <section>
+            <h2>7. Your Rights & Choices ⚖️</h2>
+            <ul>
+                <li><strong>Permissions</strong>: Review or revoke any permission in Android settings. Related
+                    features may stop working until access is restored.</li>
+                <li><strong>On-Device Data</strong>: Delete it by clearing deScroll's app data or uninstalling the
+                    app.</li>
+                <li><strong>Server Data</strong>: To access or delete data linked to your anonymous ID, email us with
+                    the anonymous device ID shown in the app settings. Because we do not collect emails, we cannot
+                    find your data by email address. Some billing or legal records may be kept where required.</li>
+                <li><strong>Subscriptions</strong>: Manage or cancel them in Google Play Subscriptions.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>8. Children’s Privacy 🚸</h2>
+            <p>deScroll is not intended for users under 13. We do not knowingly collect personal information from
+                children.</p>
+        </section>
+
+        <section>
+            <h2>9. Changes to This Privacy Policy 📝</h2>
+            <p>We may update this policy to reflect new features or legal requirements. Changes will be posted here
+                with a new "Last Updated" date, and significant updates will be communicated via the app.</p>
+        </section>
+
+        <section>
+            <h2>10. Contact Us 📧</h2>
             <p>Questions about your privacy? Reach out:</p>
             <ul>
-                <li><strong>Email</strong>: sudoajay@gmail.com</li>
+                <li><strong>Email</strong>: <a href="mailto:sudoajay@gmail.com">sudoajay@gmail.com</a></li>
             </ul>
             <p>We’re here to ensure you use deScroll with confidence! 🌟</p>
         </section>
